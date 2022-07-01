@@ -9,6 +9,10 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+in REpresntational state transfer:
+- the server and client is separated
+    -if the code is changed in the client side, this action will not affect the server side code
+diffrent clients can make a request for the router
 ```
 
 ### Question 2
@@ -19,7 +23,12 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
+
 <!-- your answer here -->
+app.get('/movies',(req,res)=>{
+    res.send(movies)
+})
+http//localhost:3000/movies
 ```
 
 ## Question 3
@@ -29,4 +38,6 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+the benefit of REST is the serparation betewwn client and server. 
+
 ```
