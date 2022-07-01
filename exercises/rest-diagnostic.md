@@ -9,6 +9,7 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+different ways you access and interact with network resources
 ```
 
 ### Question 2
@@ -20,6 +21,8 @@ with.
 
 ```md
 <!-- your answer here -->
+GET(index) /movies/
+GET(show) /movies/:id
 ```
 
 ## Question 3
@@ -29,4 +32,7 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+REST style is standardized, so your code will be easier for other people to understand and vice versa.
+You don't want to use REST if your site need a custom solution that doesnt follow the REST code.
+
 ```
