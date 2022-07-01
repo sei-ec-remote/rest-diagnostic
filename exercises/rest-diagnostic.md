@@ -9,6 +9,8 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+
+REST is a type of style language that is used for designing web pages with API's. 
 ```
 
 ### Question 2
@@ -20,6 +22,13 @@ with.
 
 ```md
 <!-- your answer here -->
+
+app.get('/movies', (req, res) => {
+    res.send(....)
+}
+app.get('/movies/:id', (req, res) => {
+    res.send(....)
+}
 ```
 
 ## Question 3
@@ -29,4 +38,7 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+It helps with separation between client and server, it is flexible, and allows a variety of data forms.
+
+you might not want to use it if you need to use your API for something specific on your site. 
 ```
