@@ -9,6 +9,7 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+Rest is web service API. That uses JSON and liquid for web design
 ```
 
 ### Question 2
@@ -20,6 +21,7 @@ with.
 
 ```md
 <!-- your answer here -->
+create a datafile as JSON and liquid files to display.
 ```
 
 ## Question 3
@@ -29,4 +31,5 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+When API already exists, we just have to link them instead of creating new one
 ```
