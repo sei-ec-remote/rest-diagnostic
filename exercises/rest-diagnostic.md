@@ -8,7 +8,7 @@ In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+<!-- the style for desigining Api web base.  -->
 ```
 
 ### Question 2
@@ -19,7 +19,11 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+post '/movies'
+get '/movies'
+get '/movies/:id'
+pathc 'movies/:id'
+delete 'movies/:id'
 ```
 
 ## Question 3
@@ -28,5 +32,5 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
+<!-- that it is standard, easy to follow and you dont have to look for the command so much because its allready there. between the get, patch and delete. -->
 ```
