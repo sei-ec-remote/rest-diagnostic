@@ -9,6 +9,8 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+REST is REpresentational State Transfer
+Rest is how network resourses are manipulated and transfered to each other.
 ```
 
 ### Question 2
@@ -20,6 +22,8 @@ with.
 
 ```md
 <!-- your answer here -->
+app.get('/fruits/:movies', (req, res) => {
+    res.send(fruits[req.params.movies]);
 ```
 
 ## Question 3
@@ -29,4 +33,5 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+REST allows for enhanced Data storage and orginaztion. It provides a quick and smooth solution for accessing and manipulating data.  
 ```
