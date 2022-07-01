@@ -9,6 +9,7 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+rest is a set of princples that show you how to read the url to know where everything is coming from so you will know how to manipulate it
 ```
 
 ### Question 2
@@ -20,6 +21,7 @@ with.
 
 ```md
 <!-- your answer here -->
+/movies/GET
 ```
 
 ## Question 3
@@ -29,4 +31,5 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+it gives you structure and a simple set up to understand the path
 ```
