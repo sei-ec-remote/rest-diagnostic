@@ -8,7 +8,7 @@ In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+REST stands for Representational State Transfer and is basically just a set of instructions that tell us how things are accessed and manipulated.
 ```
 
 ### Question 2
@@ -19,7 +19,7 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+/movies/:id
 ```
 
 ## Question 3
@@ -28,5 +28,4 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
-```
+architectural style may help us build the system quicker than building everything from scratch but you need to know all the constraints and limitations between the system which may create issues if unfamiliar.```
