@@ -8,7 +8,7 @@ In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+REST is a REpresentational State Transfer is allows us basic operations for reading and manipulating data. Its a set of principles that describe how networked resources are accessed and manipulated.
 ```
 
 ### Question 2
@@ -19,7 +19,8 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+app.get('/movies/', (req, res) =>{
+}
 ```
 
 ## Question 3
@@ -28,5 +29,5 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
+When you have a template that you don't want to have to replicate over and over with code, API's make sense when you have a collection of data that you want to use in the same fashion.
 ```
