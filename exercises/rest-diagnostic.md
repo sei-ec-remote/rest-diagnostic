@@ -9,6 +9,7 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+REST describes how resources are interacted with between the server and the client
 ```
 
 ### Question 2
@@ -20,6 +21,12 @@ with.
 
 ```md
 <!-- your answer here -->
+localhost:3000/movies/:id/edit - 
+create: '/' - post
+get: /movies/:id/edit - index, show, edit
+update/delete: /movies/:id - patch/delete
+
+
 ```
 
 ## Question 3
@@ -29,4 +36,6 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+The benefit is that REST is standardized as well as cleaner than creating multiple pages to access with an HTML/CSS file each time.
+I figure one might not use REST with a customized API that would need specific coding or security.
 ```
