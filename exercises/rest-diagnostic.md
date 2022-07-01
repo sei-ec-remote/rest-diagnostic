@@ -8,7 +8,7 @@ In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+Rest stands for representational state transfer and it allows us to determine how to get access to and change different elements within a database (used class notes)
 ```
 
 ### Question 2
@@ -19,7 +19,8 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+'/' - would take us to the main API with all the data included
+'/id' -  would fetch specific information about one piece of data from the api
 ```
 
 ## Question 3
@@ -28,5 +29,5 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
+Rest allows us to keep information separate and have a consistent way of accessing data. YOu might not want to use REST when there is extremely specific data or a lot of data that cannot be manipulated with the seven RESTful routes.
 ```
