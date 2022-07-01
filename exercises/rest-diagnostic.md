@@ -23,15 +23,15 @@ with.
 ```md
 <!-- your answer here -->
 app.get('/fruits/:movies', (req, res) => {
-    res.send(fruits[req.params.movies]);
+    res.send(movies[req.params.movies]);
 ```
 
 ## Question 3
 
 What are some of the benefits of using an architectural style like REST when
-developing an API? When might you NOT want to use the RESTful style?
+developing an API? When might you NOT want to use the RESTful style? 
 
 ```md
 <!-- your answer here -->
-REST allows for enhanced Data storage and orginaztion. It provides a quick and smooth solution for accessing and manipulating data.  
+REST allows for enhanced Data storage and orginaztion. It provides a quick and smooth solution for accessing and manipulating data. It allows apps to be scalable. 
 ```
