@@ -8,7 +8,7 @@ In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+REST stands for Representational State Transfer. It is a set of principles that can be used to define and set up a logical "map" through a site that also enables the developers to set up templates for commonly used sites.
 ```
 
 ### Question 2
@@ -19,7 +19,13 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+/movies               index (GET)
+/movies/:title        show (GET)
+/movies/new           new (POST)
+/movies               create (POST)
+/movies/:title/edit   edit (PUT/PATCH)
+/movies/:title        update (PUT/PATCH)
+/movies               destroy (DELETE)
 ```
 
 ## Question 3
@@ -28,5 +34,7 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
+The benefits of a style like REST is that it mirrors a file structure that you can navigate through using the url keywords, parameters, and queries. It becomes a bit more human-readable to understand where you are on a site and how to get somewhere else, which would be helpful for anyone trying to navigate an API or website for the information they want.
+
+As for why not to use a RESTful style, my guess is it may make less sense in a case where you are building an internal API or dealing with external clients and only need to route them directly to their required information every time, rather than having to handle a lot of variation.
 ```
