@@ -8,7 +8,7 @@ In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+REST stands for REpresentational State Transfer. In my own words, this is the way that the server docs and the liquid docs communicate with each other.
 ```
 
 ### Question 2
@@ -19,7 +19,9 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+app.get('/movies/' (req, res) => {
+
+})
 ```
 
 ## Question 3
@@ -28,5 +30,5 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
+The benefits are that we can use premade templates to easily create pages. It also makes it easier for other people to read and manipulate your code. I am not sure of a time when it would not be good to use rest.
 ```
