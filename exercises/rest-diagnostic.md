@@ -8,7 +8,7 @@ In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+REST is Representational State Transfer. A set of principles that describe how networked resources are accessed and manipulated. There are 7 major REST routes
 ```
 
 ### Question 2
@@ -19,7 +19,9 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+app.get("/movies/:id", (req, res) => {
+    res.send("show the movies!")
+})
 ```
 
 ## Question 3
@@ -28,5 +30,8 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
+*Follow a set of prefined routes already set up by others
+*Use codes that are already made by other so codes can be similiar or unified
+*When when we need codes or something speficy for our personal project.
+
 ```
