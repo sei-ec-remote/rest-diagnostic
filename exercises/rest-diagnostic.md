@@ -9,6 +9,9 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+I know your not looking for are 10 min brakes.
+The .liquid stuff is REST. Taking html and showing it differently based on values sent it.
+https://git.generalassemb.ly/sei-ec-remote/RESTful-routing-and-liquid
 ```
 
 ### Question 2
@@ -20,6 +23,7 @@ with.
 
 ```md
 <!-- your answer here -->
+I don't understnd this question. I know what a path is, but the http verb?
 ```
 
 ## Question 3
@@ -29,4 +33,5 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+My plan was read through this week class notes on the site. Guess I'll be looking for the answer when I do.
 ```
