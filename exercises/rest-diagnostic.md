@@ -9,6 +9,7 @@ relevant sources you consulted in your search.
 
 ```md
 <!-- your answer here -->
+a set of principle that define how resources are transferred throught the network
 ```
 
 ### Question 2
@@ -20,6 +21,7 @@ with.
 
 ```md
 <!-- your answer here -->
+/movies GET
 ```
 
 ## Question 3
@@ -29,4 +31,6 @@ developing an API? When might you NOT want to use the RESTful style?
 
 ```md
 <!-- your answer here -->
+REST is organized, it can help you create different pages with template
+REST is not useful when creating a single page website
 ```
