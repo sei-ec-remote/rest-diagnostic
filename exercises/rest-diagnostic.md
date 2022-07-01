@@ -7,8 +7,8 @@ This file is a markdown file. Markdown is a special way of formatting text, and 
 In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
-```md
-<!-- your answer here -->
+```REST is a set of principles that describe how networked resources are accessed and manipulated
+there are  7 routes that allow us basic operations for reading and manipulating a collection of data
 ```
 
 ### Question 2
@@ -19,7 +19,8 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+(/movies
+/movies/:id
 ```
 
 ## Question 3
@@ -28,5 +29,7 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
+It makes it easier to write program with other programmers
+The usage of ubiquitous standards is another characteristic for ease of integration that has to do with REST over HTTP
+
 ```
